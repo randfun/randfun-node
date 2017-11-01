@@ -1,0 +1,40 @@
+{
+  "name": "randfun",
+  "version": "0.1.0",
+  "description": "Node wrapper for the Rand.fun API",
+  "main": "dist/randfun.node.js",
+  "browser": "dist/randfun.browser.js",
+  "unpkg": "dist/randfun.browser.js",
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "test": "jest",
+    "publish": "yarn build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randfun/node-api.git"
+  },
+  "keywords": [
+    "rand.fun",
+    "api",
+    "wrapper",
+    "browser",
+    "node"
+  ],
+  "author": "Angel M Miguel <angel@laux.es>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/randfun/node-api/issues"
+  },
+  "homepage": "https://github.com/randfun/node-api#readme",
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "uglifyjs-webpack-plugin": "^1.0.1",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "node-fetch": "^1.7.3",
+    "query-string": "^5.0.1",
+    "whatwg-fetch": "^2.0.3"
+  }
+}
