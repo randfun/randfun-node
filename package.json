@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "description": "Node wrapper for the Rand.fun API",
   "main": "dist/randfun.node.js",
-  "browser": "dist/randfun.browser.js",
-  "unpkg": "dist/randfun.browser.js",
+  "browser": "dist/randfun.browser.polyfills.js",
+  "unpkg": "dist/randfun.browser.polyfills.js",
   "scripts": {
-    "build": "webpack --progress --colors",
+    "build": "NODE_ENV=production webpack --progress --colors",
     "test": "jest",
     "publish": "yarn build && npm publish"
   },
