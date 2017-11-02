@@ -14,6 +14,11 @@
     "type": "git",
     "url": "git+https://github.com/randfun/node-api.git"
   },
+  "jest": {
+    "globals": {
+      "process.env.API_ENDPOINT": "http://test"
+    }
+  },
   "keywords": [
     "rand.fun",
     "api",
