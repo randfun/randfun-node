@@ -1,6 +1,6 @@
 {
   "name": "randfun",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Node wrapper for the Rand.fun API",
   "main": "dist/randfun.node.js",
   "browser": "dist/randfun.browser.polyfills.js",
