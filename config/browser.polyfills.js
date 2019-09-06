@@ -5,6 +5,7 @@ const browserConfig = {
   context: path.resolve(__dirname, '../'),
   entry: ['whatwg-fetch', './index.browser.js'],
   devtool: 'source-map',
+  mode: 'production',
   output: {
     path: path.resolve(__dirname, '../dist'),
     filename: 'randfun.browser.polyfills.js',
